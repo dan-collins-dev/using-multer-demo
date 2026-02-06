@@ -1,0 +1,24 @@
+[
+    {
+        "fieldname": "picture",
+        "originalname": "f749ff1f4f17682e42cb476ff884a3f7.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\code-you\\demos\\multi-part-form-data-demo\\uploads",
+        "filename": "f749ff1f4f17682e42cb476ff884a3f7.jpg",
+        "path": "C:\\code-you\\demos\\multi-part-form-data-demo\\uploads\\f749ff1f4f17682e42cb476ff884a3f7.jpg",
+        "size": 75471,
+        "url": "http://localhost:8080/uploads/f749ff1f4f17682e42cb476ff884a3f7.jpg"
+    },
+    {
+        "fieldname": "picture",
+        "originalname": "f90305c4ed495441bebba8e17ffda686.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\code-you\\demos\\multi-part-form-data-demo\\uploads",
+        "filename": "f90305c4ed495441bebba8e17ffda686.jpg",
+        "path": "C:\\code-you\\demos\\multi-part-form-data-demo\\uploads\\f90305c4ed495441bebba8e17ffda686.jpg",
+        "size": 78120,
+        "url": "http://localhost:8080/uploads/f90305c4ed495441bebba8e17ffda686.jpg"
+    }
+]
