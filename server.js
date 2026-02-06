@@ -49,7 +49,7 @@ app.post(
             const picturesPath = path.join(__dirname, "data", "pictures.json");
             const pictures = JSON.parse(await fs.readFile(picturesPath));
 
-            file.url = `http://localhost:8080/uploads/${file.originalname.replace(
+            file.url = `http://localhost:8080/uploads/${file.originalname.replaceAll(
                 " ",
                 "%20",
             )}`;
