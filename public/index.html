@@ -25,6 +25,11 @@
 
     <main>
         <form id="upload-form" class="upload-form" method="POST" action="/pictures" enctype="multipart/form-data">
+            <!-- 
+            
+            the `name` attribute is very important. If you look at server.js, you'll see that `picture` is being looked for in the POST route 
+            
+            -->
             <input type="file" name="picture" id="file-input">
             <button id="submit-btn" type="submit">Submit Picture</button>
         </form>
