@@ -15,7 +15,7 @@ While the project works, I've left some room for the following challenges:
 
 - The code for the form submission assumes that there will always be an image when the submit button is clicked. Add the necessary code to handle other cases like incorrect file types or no file selected
 - I've left room to improve naming things. For example, `image2` is not a descriptive name
-- Add a field to your form to include a readable name you want to display instead of the file name in the gallery. **Hint**: You'll have to update multiple files to get this work
+- Add a field to your form to include a readable name you want to display instead of the file name in the gallery. **Hint**: You'll have to update multiple files to get this working
 - Update/fix the styling
 - Re-write the code to use commonjs
 - Use this as a starting reference to implement your own requirements
