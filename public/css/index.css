@@ -1,0 +1,33 @@
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+    gap: 1rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    gap: 1rem;
+}
+
+section {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .img-container {
+        flex-direction: row;
+    }
+
+    section {
+        width: 50%;
+    }
+}
