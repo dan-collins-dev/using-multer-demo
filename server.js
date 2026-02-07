@@ -5,10 +5,10 @@ import fs from "fs/promises";
 import { fileURLToPath } from "url";
 
 const app = express();
+const port = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-const port = 8080;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

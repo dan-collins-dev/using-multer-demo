@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+
+.img-card-container {
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: .5rem;
+    padding: .5rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
